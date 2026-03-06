@@ -1,0 +1,76 @@
+header{
+    background-color:rgb(165, 102, 134);
+    color: black; /*cor do texto*/
+    text-align: center; /*Alinhando o texto*/
+    display: flex;
+}
+
+header .logo{
+   background-color: blueviolet;
+   padding: 10px; /*padding: margem interna d caixa*/
+   width: 30%;
+   margin-right: 10px;
+}
+
+header .logo img{
+   width: 100%; /* Atura em relação ao tamanho da caixa, decontando o paidding (margem interna)*/
+}
+
+header .titulo{
+   background-color: rgb(226, 43, 198);
+   padding: 10px;  /*padding: margem interna d caixa*/
+   width: 70%;
+}
+
+body{
+    margin: 10px; /*tamanho da margem*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Fonte de Texto padrão*/
+     background-color: antiquewhite;
+}
+/*Centralizar o site*/
+.container{ /*O ponto conversa com uma class, no caso container*/
+    width: 100%;
+    margin:auto
+}
+
+
+.conteudo{  /* ativa o flexbox(deixa um do lado do outro)*/
+    display: flex;
+}
+ nav{
+    width: 30%;
+    background-color: rgb(166, 106, 169);
+    color:black;
+    display: flex;
+ }
+
+ main{
+    width: 70%;
+    background-color: aqua; /*cor de fundo*/
+    color: black; /*cor da fonte*/ 
+    display: flex;
+ }
+
+ footer{
+    background-color: rgb(255, 255, 255); /*cor de fundo*/
+    color: rgb(120, 94, 110); /*cor da fonte*/ 
+    text-align: center; /*Alinhando texto*/
+ }
+
+ header, nav, main, footer {
+    padding:20px;
+ }
+
+ section{
+background-color: antiquewhite;
+padding: 10px; /*padding: margem interna da caixa*/
+width: 80%;
+text-align: justify;
+ }
+
+ aside{
+background-color: rgb(122, 105, 169);
+padding: 10px; /*padding: margem interna da caixa*/
+width: 20%;
+margin-left: 20px;
+ }
