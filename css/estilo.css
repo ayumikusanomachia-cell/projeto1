@@ -24,6 +24,12 @@ header .titulo{
    width: 70%;
 }
 
+.menu-topo{
+   list-style: none;
+   display: flex;
+   gap: 20px /*Distancia entre os itens*/
+}
+
 body{
     margin: 10px; /*tamanho da margem*/
     font-family: Georgia, 'Times New Roman', Times, serif; /*Fonte de Texto padrão*/
