@@ -1,12 +1,14 @@
-header{
+.navbar-topo{
     background-color:rgb(165, 102, 134);
     color: black; /*cor do texto*/
     text-align: center; /*Alinhando o texto*/
     display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    justify-content: space-between;
 }
 
 header .logo{
-   background-color: blueviolet;
    padding: 10px; /*padding: margem interna d caixa*/
    width: 30%;
    margin-right: 10px;
@@ -62,7 +64,6 @@ body{
  }
 
  section{
-background-color: antiquewhite;
 padding: 10px; /*padding: margem interna da caixa*/
 width: 80%;
 text-align: justify;
@@ -74,3 +75,5 @@ padding: 10px; /*padding: margem interna da caixa*/
 width: 20%;
 margin-left: 20px;
  }
+
+ 

@@ -15,25 +15,34 @@
     <!--<div class="container"> </div> é um container padão, você dá o nome que quiser-->
     <div class="container">
 
-        <header> <!--Container para título-->
+        <header class="navbar-topo"> <!--Container para título-->
+
             <section class="logo">  <!--Logo-->
-                <img src="Imagem/books.png" alt="Logo da marca." >
+                <img src="Imagem/books.png" alt="Logo da marca." width="200px" >
             </section> 
            
-            <section class="titulo">Empresa</section>
-            <!--Nome da empresa-->
+            <section class="titulo">Empresa</section> <!--Nome da empresa-->
+
+            <ul class="menu-topo"> 
+              <li><a href="index.html" title="Conheça a empresa">Página Inicial</a></li>  <!--Tag <a> é usada para links-->
+              <li><a href="contato.html" title="Entre em contato">Fale Conosco</a></li>   <!--O atributo href diz para onde o link mandará o usuário-->
+            </ul>
+            <!-- <ul>: Lista não ordenada
+                 <li item da lista ñ ordenadaa>-->
+
         </header>
     </div>
 
 <div class="conteudo">
-    <nav>
-<ul> <!--Lista não ordenada-->
-    <li><a href="index.html" title="Conheça a empresa">Página Inicial</a></li>  <!--Tag <a> é usada para links-->
-    <li><a href="contato.html" title="Entre em contato">Fale Conosco</a></li>   <!--O atributo href diz para onde o link mandará o usuário-->
-
-</ul>
-    </nav> <!--Container p/ menu-->
-
+    <nav class="menu-lateral">  <!--Container p/ menu-->
+        
+        <ul class="menu-topo"> 
+              <li><a href="index.html" title="Conheça a empresa">Página Inicial</a></li>  <!--Tag <a> é usada para links-->
+              <li><a href="contato.html" title="Entre em contato">Fale Conosco</a></li>   <!--O atributo href diz para onde o link mandará o usuário-->
+            </ul>
+            <!-- <ul>: Lista não ordenada
+                 <li item da lista ñ ordenadaa>-->
+    </nav> 
     <main>
         <section>  <!--Colocar conteúdo principal-->
             <h3>Conteúdo principal</h3> 
